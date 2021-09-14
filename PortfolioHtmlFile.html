@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio Website</title>
+	<link rel="stylesheet" type="text/css" href="css/PortfolioCssFile.css">
+
+	<script type="text/javascript" src="js/PortfolioJsFile.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="js/typed.min.js"></script>
+	
+	
+</head>
+<body>
+<header>
+	<nav>
+		<div class="logo">PORTFO<span>LIO</span></div>
+		<div class="menu">
+			<a href="#">Home</a>
+			<a href="#about">About</a>
+			<a href="#skills">Skills</a>
+			<a href="#projects">Project</a>
+			<a href="#contact">Contact</a>
+
+		</div>
+	</nav>
+    
+    <div class="text">
+    	<p>Hello, I am</p>
+    	<h1>Atish Kumar</h1>
+    	<p>And I'am a <span id="ani"style="color:green;"></span></p>
+    	<button class="c-btn" >Explore</button>
+    </div>
+
+</header>
+<section id="sidenav">
+	<img src="portfolioimg/menubar.png" id="menubar">
+	    <a href="#">Home</a>
+			<a href="#">About</a>
+			<a href="#">Skills</a>
+			<a href="#">Project</a>
+			<a href="#">Contact</a>
+
+</section>
+
+<section id="about">
+        <div class="section-info">
+        	<h1>About</h1>
+        	<p>Who i am?</p>
+        </div>
+
+        <div class="about-row">
+          <div class="about-left-col">
+          	  <img src="portfolioimg/atish21.jpeg">
+          </div>
+
+          <div class="about-right-col">
+          	<p id="p-title">Hello, I'am Atish & I'am a <span id="ani2"style="color:red;"></span></p>
+          	<p>
+          	Hello,I am Atish Kumar, an undergraduate student at National Institute of Technology Manipur.I am pursuing Bachelor of Technology in Electronics and Communication Engineering.My academics include playing with circuits and processors while my rest of the time is fully dedicated to coding and developing.I am a passionate programmer and a tech enthusiast. Always looking for a key exposure in the fields of Software Development.
+          	</p>
+             
+             
+             <a href="https://drive.google.com/file/d/1LVNrh7lig7HxFJv6V2IAGahTXo4pNI30/view?usp=sharing" download>
+  <button class="c-btn">Download cv</button>
+</a>
+          	
+          </div>
+
+        </div>	
+
+
+    </section>
+
+    <section id="skills">
+    	<div class="section-info">
+        	<h1 style="color:white;">Skill's</h1>
+        	<p>Who i am?</p>
+        </div>
+
+        <div class="skills-row">
+        	<div class="skills-left-col">
+        	 <p>
+        		 Hello,I am Atish Kumar, an undergraduate student at National Institute of Technology Manipur.I am pursuing Bachelor of Technology in Electronics and Communication Engineering.My academics include playing with circuits and processors while my rest of the time is fully dedicated to coding and developing.I am a passionate programmer and a tech enthusiast.Always looking for a key exposure in the fields of Software Development and Web Development.
+        	 </p>
+        		<button class="c-btn">Read more</button>
+        		
+        	</div>
+        	<div class="skills-right-col">
+        		
+        		<div class="progress-div">
+        			<p>
+        				<span>JAVA</span><br>
+        				<progress value="80" max="100"></progress>
+        				<span>90%</span>
+        			</p>
+        			<p>
+        				<span>DS and Algo</span><br>
+        				<progress value="80" max="100"></progress>
+        				<span>80%</span>
+        			</p>
+        			<p>
+        				<span>HTML</span><br>
+        				<progress value="80" max="100"></progress>
+        				<span>80%</span>
+        			</p>
+        			<p>
+        				<span>CSS</span><br>
+        				<progress value="80" max="100"></progress>
+        				<span>70%</span>
+        			</p>
+        			<p>
+        				<span>BOOTSTRAP</span><br>
+        				<progress value="80" max="100"></progress>
+        				<span>80%</span>
+        			</p>
+        			<p>
+        				<span>MYSQL</span><br>
+        				<progress value="80" max="100"></progress>
+        				<span>80%</span>
+        			</p>
+        			
+        			
+        		</div>
+        	</div>
+        	
+        </div>
+
+    </section>
+
+    <section id="projects">
+    	<div class="section-info">
+        	<h1 >Projects</h1>
+       </div>
+
+       <div class="projects-row">
+       	 <div class="project-box"data-tilt>
+          <img src="portfolioimg/covid19.jpg">
+          <h2>Covid19-Tracker-App</h2>
+          <p>
+          	An android app that will help to track covid-19 cases globally.The app will show the data of all the countries and will also show the data of all the states and all districts of India.The software used to build this app is Android Studio and Java as it's backend language.The API calls have been made via Volley library. 
+
+          </p>
+       	 </div>
+       	 
+       	 <div class="project-box"data-tilt>
+          <img src="portfolioimg/Portfolio.jpg">
+          <h2>E-Portfolio</h2>
+          <p>
+          	This is my E-Portfolio website. This is my first project in the field of Web Development.This website is created using HTML,CSS,Bootstrap,JS and Type.js Library for Typing Animation.The photos are imported from Google and Unsplash. The icons used are from FontAwesome.
+          </p>
+       	 </div>
+       	 <div class="project-box"data-tilt>
+          <img src="portfolioimg/drone.jpg">
+          <h2>Wooden Quadcopter</h2>
+          <p>
+          	 A quadcopter having the feature of auto stabilizing itself in mid-air while flight.The main electronic components include Arduino UNO R3 microprocessor and MPU Gyro-cum accelerometer.The model was made with efficient low-cost material to bring down the effective price.Our team stood 2nd Runner up in the NIT Manipur tech-fest.
+           </p>
+       	 </div>
+       </div>
+    </section>
+
+    <section id="contact">
+    	<div class="section-info ">
+        	<h1 style="color:white;" >Get In Touch</h1>
+        	<p style="color:black;">I am Available</p>
+       </div>
+
+       <div class="contact-row">
+       	<div class="contact-left-col">
+       		<img src="portfolioimg/b3.png">
+       	</div>
+       	<div class="contact-right-col">
+       		<form>
+       			<h2>connect with us</h2>
+       			<input type="text" name="" placeholder="Name">
+       			<input type="email" name="" placeholder="E-mail">
+       			<br>
+       			<textarea cols="40" rows="10" placeholder="Message"></textarea>
+       			<br>
+       			<button class="c-btn">Submit</button>
+       		</form>
+       	</div>
+       </div>
+    </section>
+
+    <footer>
+    	<h2>Developed<br>by Atish Kumar</h2>
+    	<img src="portfolioimg/icon.png" width="100">
+    </footer>
+     
+
+    <script src="js/jquery.ripples-min.js"></script>
+   
+    <script>
+    	jQuery(document).ready(function(){
+        $('header').ripples({
+  dropRadius:20,
+  perturbance:0.03,
+ });
+});
+    </script>
+
+    <script>
+    	let animate=new Typed('#ani',{
+    		strings:["Fronted End Developer.","Android Developer.","Singer."],
+    		typeSpeed:100,
+    		backSpeed:100,
+    		loop:true,
+    	});
+    </script>
+
+     <script>
+    	let animate2=new Typed('#ani2',{
+    		strings:["Fronted End Developer.","Android Developer.","Singer."],
+    		typeSpeed:100,
+    		backSpeed:100,
+    		loop:true,
+    	});
+    </script>
+    <script src="js/tilt.jquery.min.js"></script>
+    <script>
+    	var menu=document.getElementById("menubar");
+    	var sidenav=document.getElementById("#sidenav");
+    	sidenav.style.width=0px
+    	menu.onclick=function(){
+    		if(sidenav.style.width==0px){
+    			sidenav.style.width=250px;
+    		}else{
+    			sidenav.style.width=0px;
+    		}
+    	}
+    </script>
+</body>
+</html>
